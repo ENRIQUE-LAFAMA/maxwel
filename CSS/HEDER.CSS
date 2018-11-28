@@ -1,4 +1,8 @@
 header{
     width:100%;
-    background: #000;
+    background: black;
+}
+
+header a{
+    color: aliceblue;
 }
