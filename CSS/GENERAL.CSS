@@ -1,5 +1,6 @@
-@import url(HEDER.CSS);
+@import url(HEADER.CSS);
 @import url(BANNER.CSS);
+@import url(fontello.css);
 
 *{
     padding: 0;

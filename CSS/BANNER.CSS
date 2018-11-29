@@ -1,11 +1,12 @@
 .contenedor{
+    display: ;
     position: relative;
 }
 
 #banner img{
     width: 100%;
     height: 350px;
-    margin-top: 60px;
+    margin-top: 51px;
     
 }
 
