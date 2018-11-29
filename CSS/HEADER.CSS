@@ -54,7 +54,7 @@ header label:hover{
     color: black;
 }
 
-@media (max-width:800px){
+@media (max-width:795px){
     header label{
     display:block;
     width: 50px;
