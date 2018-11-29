@@ -1,0 +1,11 @@
+header div{
+    left:10%;
+    margin-right: 3px;
+    
+}
+#boton-login{
+    text-align: center;
+    padding: 2px;
+    width: 50px;
+    margin-top: 2px;
+}
