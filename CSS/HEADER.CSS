@@ -40,6 +40,7 @@ header label:hover{
 .menu li{
     /*flex-grow: 1;*/
     text-align: center;
+    justify-content: center;
 }
 
 .menu li a{
@@ -48,6 +49,7 @@ header label:hover{
     background: #0499E6;
     color: black;
     text-decoration: none;
+    
 }
 
 nav ul{
@@ -60,7 +62,7 @@ nav ul{
     display: none;
 }
 
-@media (max-width:795px){
+@media (max-width:595px){
 
     header label{
         display:block;
