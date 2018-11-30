@@ -60,12 +60,8 @@ nav ul{
     display: none;
 }
 
-<<<<<<< HEAD
-
-@media (max-width:800px){
-=======
 @media (max-width:795px){
->>>>>>> 3787140c82ad07a933679e7f96144639cf796512
+
     header label{
         display:block;
         width: 50px;
