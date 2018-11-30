@@ -53,8 +53,9 @@ header label:hover{
     display: block;
     padding: 16px 10px;
     background: #0499E6;
-    color: black;
+    color:azure;
     text-decoration: none;
+    font-size: 18px;
     
 }
 
