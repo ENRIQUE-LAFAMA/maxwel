@@ -35,9 +35,17 @@
     background-color: rgba(255,255,255,0.9);
 }
 
+.cuadrado #texto{
+    position: absolute;
+    margin-left: 7.7%;
+    margin-top: 20%;
+    font-size: 30px;
+    
+}
+
 .cuadrado input{
-    /*border: none;*/
-   /* background-color: rgba(255,255,255,0.2);*/
+    position: absolute;
+    background-color: rgba(255,255,255,0.2);
     outline: none;
     width: 84%;
     height: 30px;
@@ -48,6 +56,30 @@
     border-right-width: 0;
     border-bottom-width: 1.4px;
     border-color: black;
+    font-size: 17px;
     
-    
+}
+
+.cuadrado #crearCuenta{
+    position: absolute;
+    margin-left: 7.7%;
+    font-size: 15px;
+    margin-top: 43%;
+}
+
+#crearCuenta a{
+    text-decoration: none;
+    color:blue;
+}
+
+.cuadrado #submit{
+    position: absolute;
+    background-color:#016EA6;
+    color: aliceblue;
+    font-size: 17px;
+    width: 110px;
+    height: 34px;
+    text-align: center;
+    left: 58%;;
+    top: 30%;
 }
