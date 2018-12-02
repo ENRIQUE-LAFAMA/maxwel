@@ -1,3 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+
 #intro {
     text-align: center;
+}
+
+body section h1{
+    font-family: 'Lobster', cursive;
+    text-decoration: underline;
+}
+#inf img{
+    display: flex;
+    width:325px;
+    height:250px;
 }
