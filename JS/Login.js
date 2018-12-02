@@ -1,5 +1,4 @@
-var boton = document.getElementById("submit");
+/*jslint devel: true */
 
-function alerta{
-    alert("Hola abuelita");
-}
+var boton = 5;
+window.alert();
