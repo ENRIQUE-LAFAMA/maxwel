@@ -2,12 +2,13 @@
 header{
     width:100%;
     height: 50px;
-    background: #0499E6;
+    background: rgb(0,114,193,0.95);
     position: fixed;
     top:0;
     left:0;
     z-index: 100;
     display: table;
+    /*display: none;*/
 }
 /*#######hay que arreglar el login en el header#######*/
 header .menu{
@@ -25,7 +26,8 @@ header label:hover{
     
 }
 .menu{
-    top:50px;}
+    top:50px;
+}
 /*aqui comienza el css para el check*/
 #check-menu{
  
@@ -51,8 +53,8 @@ header label:hover{
 
 .menu li a{
     display: block;
-    padding: 16px 10px;
-    background: #0499E6;
+    padding: 10px 10px;
+    background: rgb(0,114,193,0.05);
     color:azure;
     text-decoration: none;
     font-size: 18px;
@@ -79,16 +81,16 @@ nav ul{
     }
     .menu{
         position: absolute;
-        background: #0499E6;
-        width:70%;
-        margin-left:-70%;
+        background: rgb(0,114,193,0.9);
+        width:100%;
+        margin-left:-100%;
         transition:all 0.5s;
     }
     .menu ul{
         flex-direction: column;
     }
     #check-menu:checked ~ .menu{
-        margin: 0;
+        margin-left: 0%;
     }
     nav ul{
         float:none;
