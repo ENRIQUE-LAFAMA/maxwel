@@ -8,8 +8,36 @@ body section h1{
     font-family: 'Lobster', cursive;
     text-decoration: underline;
 }
-#inf img{
+#inf .contenedor{
+    
     display: flex;
-    width:325px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#inf img{
+    display: block;
+    width: 100%;
+    max-width: 280px;
     height:250px;
+    padding: 10px;
+    margin-top:10px;
+    position: relative;
+}
+
+.contenedor article{
+    margin: 15px;
+}
+#inf img:hover{
+    background: rgba(0,0,0,0.2);
+}
+
+.contenedor h4{
+    position: absolute;
+    margin-left: 10px;
+    text-align: center;
+}
+
+#inf h1{
+    font-family: none;
+    padding: 25px;
 }
