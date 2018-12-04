@@ -17,14 +17,12 @@ header .menu{
 
 }
 
-#imgHeader{
+#Logo{
     width: 65px;
     height: 65px;
     position:absolute;
     left: 2%;
     top: 4%;
-    
-    
 }
 
 /**/
