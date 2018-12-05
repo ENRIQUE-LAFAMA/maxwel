@@ -9,7 +9,7 @@ body section h1{
     text-decoration: underline;
 }
 #inf .contenedor{
-    
+    position: relative;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -43,4 +43,8 @@ body section h1{
 }
 body{
     background-color:ivory;
+}
+
+#inf{
+    margin-top: 80px;
 }
