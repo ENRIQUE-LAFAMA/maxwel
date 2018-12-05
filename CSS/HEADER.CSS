@@ -8,12 +8,29 @@ header{
     left:0;
     z-index: 100;
     display: table;
+    
     /*display: none;*/
 }
 /*#######hay que arreglar el login en el header#######*/
 header .menu{
     height: top;
 
+}
+
+#Logo{
+    width: 70px;
+    height: 70px;
+    position:absolute;
+    left: 1%;
+    top: 2%;
+}
+
+#LogoText{
+    width: 250px;
+    height: 55px;
+    position:absolute;
+    left: 7%;
+    top: 19%;
 }
 
 /**/
