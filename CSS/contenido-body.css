@@ -26,6 +26,7 @@ body section h1{
 
 .contenedor article{
     margin: 15px;
+    position: relative;
 }
 #inf img:hover{
     background: rgba(0,0,0,0.2);
@@ -35,6 +36,7 @@ body section h1{
     position: absolute;
     margin-left: 10px;
     text-align: center;
+    width: 90%;
 }
 
 #inf h1{
