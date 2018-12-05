@@ -41,8 +41,12 @@ body section h1{
     font-family: none;
     padding: 25px;
 }
+#inf h2{
+    text-align:center;
+    text-decoration: underline;
+}
 body{
-    background-color:ivory;
+    background-color:antiquewhite;
 }
 
 #inf{

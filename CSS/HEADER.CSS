@@ -36,6 +36,7 @@ header .menu{
 /**/
 header label{
     display: none;
+    color: white;
 }
 header label:hover{
     cursor: pointer;
