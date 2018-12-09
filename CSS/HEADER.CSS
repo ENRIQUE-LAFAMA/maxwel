@@ -8,6 +8,7 @@ header{
     left:0;
     z-index: 100;
     display: table;
+    position: relative;
     
     /*display: none;*/
 }
@@ -89,7 +90,8 @@ nav ul{
     display: none;
 }
 
-@media (max-width:500px){
+
+@media (max-width: 880px){
 
     header label{
         display:block;
@@ -97,6 +99,7 @@ nav ul{
         height: 50px;
         padding: 13px;
     }
+  
     .menu{
         position: absolute;
         background: rgb(0,114,193,0.9);
@@ -112,6 +115,10 @@ nav ul{
     }
     nav ul{
         float:none;
+    }
+    #Logo, #LogoText{
+        display: none;
+        
     }
 }
 
