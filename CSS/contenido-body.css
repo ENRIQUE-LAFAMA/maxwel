@@ -27,9 +27,12 @@ body section h1{
 .contenedor article{
     margin: 15px;
     position: relative;
+    cursor: pointer;
+    
 }
 #inf img:hover{
     background: rgba(0,0,0,0.2);
+    cursor: pointer;
 }
 
 .contenedor h4{
@@ -48,7 +51,7 @@ body section h1{
     text-decoration: underline;
 }
 body{
-    background-color:antiquewhite;
+    background-color:white;
 }
 
 #inf{
