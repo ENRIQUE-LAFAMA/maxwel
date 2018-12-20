@@ -9,7 +9,7 @@
     justify-content: center;
     position: relative;
     border-radius: 100%;
-    border: 2px solid #ffff00;
+    border: 2px solid #0174DF;
 }
 
 #intro img:hover{
@@ -18,6 +18,6 @@
     justify-content: center;
 }
 #intro{
-    border-bottom: rgb(0,114,193,0.95);
+    border-bottom: rgba(0,114,193,0.95);
     background:;
 }
