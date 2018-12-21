@@ -37,6 +37,8 @@ function alerta(){
     crearCuenta.style.display = "none";
     olvido.style.display = "block";
     olvido.style.marginTop = "60%";
+    
+    entrada.value = "";
 }
 
 
