@@ -63,6 +63,7 @@ header label:hover{
 
 .menu li a:hover{
     background:rgba(0,0,0,0.2);
+    cursor: pointer;
 }
 .menu li{
     flex-grow: 1;
@@ -73,7 +74,7 @@ header label:hover{
 .menu li a{
     display: block;
     padding: 10px 10px;
-    background: rgb(0,114,193,0.05);
+    background: rgba(0,114,193,0.05);
     color:azure;
     text-decoration: none;
     font-size: 18px;
@@ -102,7 +103,7 @@ nav ul{
   
     .menu{
         position: absolute;
-        background: rgb(0,114,193,0.9);
+        background: rgba(0,114,193,0.9);
         width:100%;
         margin-left:-100%;
         transition:all 0.5s;
@@ -120,5 +121,23 @@ nav ul{
         display: none;
         
     }
+    /*
+    #Logo{
+    width: 70px;
+    height: 70px;
+    position:absolute;
+    text-align: right;
+    left: 1%;
+    top: 2%;
+}
+
+#LogoText{
+    width: 250px;
+    height: 55px;
+    position:absolute;
+    text-align: right;
+    left: 7%;
+    top: 19%;
+}*/
 }
 

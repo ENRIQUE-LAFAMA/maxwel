@@ -31,7 +31,7 @@ body section h1{
     
 }
 #inf img:hover{
-    background: rgba(0,0,0,0.2);
+    background: rgba(0,114,193,0.7);
     cursor: pointer;
 }
 
@@ -49,6 +49,7 @@ body section h1{
 #inf h2{
     text-align:center;
     text-decoration: underline;
+    font-family: 'Lobster', cursive;
 }
 body{
     background-color:white;
