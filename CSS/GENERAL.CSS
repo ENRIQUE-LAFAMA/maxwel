@@ -3,6 +3,7 @@
 @import url(fontello.css);
 @import url(contenido-body.css);
 @import url(contactos.css);
+@import url(reserva.css);
 
 
 /*AQUI IMPORTARE UN CSS PARA LAS REDIRECCIONES DEL MENU*/
@@ -12,4 +13,6 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
 }
