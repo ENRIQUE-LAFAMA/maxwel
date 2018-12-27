@@ -103,6 +103,7 @@
 
 #cuadrado #btn:hover{
     background-color:#005683;
+    cursor: pointer;
 }
 
 /*Animacion del boton*/
@@ -213,6 +214,11 @@
     height: 29px;
     left: 66%;
     top: 81%;
+}
+
+#btnCrear:hover{
+    background-color:#005683;
+    cursor: pointer;
 }
 
 .retroceder{
