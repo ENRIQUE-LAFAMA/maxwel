@@ -8,6 +8,7 @@
     width: 100%;
     height: 100vh;
     position: relative;
+    
 }
 #Background{
     height: 99vh;
@@ -24,7 +25,7 @@
     top: 50%;
     position: absolute;
     background-color: rgba(255,255,255,0.9);*/
-    
+   
     height: 350px;
     width: 450px;
     margin-left: -225px;
@@ -60,11 +61,11 @@
     font-size: 17px;    
 }
 
-#cuadrado #crearCuenta{
+#cuadrado #crear{
     position: absolute;
     margin-left: 7.7%;
     font-size: 17px;
-    margin-top: 46%;
+    margin-top: 45%;
 }
 
 #cuadrado #olvido{
@@ -77,10 +78,13 @@
     display: none;
 }
 
-#crearCuenta a{
+#crear a{
     text-decoration: none;
     color:#0B74AE;
-    
+}
+
+#crear a:hover{
+    cursor: pointer;
 }
 
 #cuadrado #btn{
@@ -120,7 +124,7 @@
     border-left: 5px solid black;
     display: none;
 }
-#name{
+.name{
     position: absolute;
     left: 30%;
     top: 8%;
@@ -129,4 +133,114 @@
     font-weight: 600;
     text-shadow: 0px 0 10px #07f;
     
+}
+
+#crearCuenta{
+    height: 350px;
+    width: 450px;
+    margin-left: -225px;
+    margin-top: -190px;
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    background-color: rgba(255,255,255,0.9);
+    display: none;
+}
+
+#crearCuenta #textoCrear{
+    position: absolute;
+    margin-left: 7.7%;
+    margin-top: 20%;
+    font-size: 30px;
+}
+
+#userCrear{
+    position: absolute;
+    background-color: rgba(255,255,255,0.2);
+    outline: none;
+    width: 84%;
+    height: 30px;
+    margin-left: 8%; 
+    margin-top: 35%;
+    border-top-width: 0;
+    border-left-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 1.4px;
+    border-color: black;
+    font-size: 17px;    
+}
+#userCrear2{
+    position: absolute;
+    background-color: rgba(255,255,255,0.2);
+    outline: none;
+    width: 84%;
+    height: 30px;
+    margin-left: 8%; 
+    margin-top: 55%;
+    border-top-width: 0;
+    border-left-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 1.4px;
+    border-color: black;
+    font-size: 17px;
+    display: none;
+}
+
+#moreInformation{
+ position: absolute;
+    top: 43%;
+    left: 8%;
+    display: none;
+}
+
+#btnCrear{
+    position: absolute;
+    background-color:#016EA6;
+    color: aliceblue;
+    font-size: 17px;
+    width: 110px;
+    height: 34px;
+    text-align: center;
+    left: 65%;;
+    top: 80%;
+    border: none;
+    box-shadow: 0px 1.5px 2px 0px #000;
+}
+
+/*Animacion del boton*/
+#btnCrear:active{
+    width: 100px;
+    height: 29px;
+    left: 66%;
+    top: 81%;
+}
+
+.retroceder{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    top: 22.6%;
+    left: 7%;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: monospace;
+    display: none;
+}
+
+.retroceder:hover{
+    border-radius: 50%;
+    background-color:  rgba(140,150,160,0.5);
+    cursor: pointer;
+}
+.retroceder:active{
+    top: 23.1%;
+    font-size: 18px;
+}
+
+.identificador{
+    position: relative;
+    top: 23%;
+    left: 13%;
+    display: none;
 }

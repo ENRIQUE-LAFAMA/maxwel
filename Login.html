@@ -11,14 +11,27 @@
    <div class="contenedorLog">
        <img src="IMG/LoginBackground.jpg" alt="" id="Background">
        <div id="cuadrado">
-          <img src="IMG/Logo.png" alt="" id="Logo">
-          <div id="name">Hotels Luxury</div>
+           <img src="IMG/Logo.png" alt="" id="Logo">
+           <div class="name">Hotels Luxury</div>
+           <div class="retroceder" id="retroceder1_2" onclick="retroceder()">&#60</div>
+           <h3 class="identificador" id="identificador1_2"></h3>
            <div id="texto">Iniciar sesión</div>
            <input type="text" id="user" placeholder="Correo electrónico o teléfono" autofocus>
-           <div id="crearCuenta">¿No tiene una cuenta? <a href="">Cree una.</a></div>
+           <div id="crear">¿No tiene una cuenta? <a  onclick="cambiarPantalla()">Cree una.</a></div>
            <a href="" id="olvido">He olvidado mi contraseña</a>
            <input type="submit" value="Siguiente" id="btn" onclick="alerta()">
        </div>
+       <div id="crearCuenta">
+           <div class="name">Hotels Luxury</div>
+           <div class="retroceder" id="retroceder2" onclick="retroceder()">&#60</div>
+           <h3 class="identificador" id="identificador2"></h3>
+           <h2 id="textoCrear">Crear cuenta</h2>
+           <p id="moreInformation">Necesitamos más informacion para poder configurar su cuenta.</p>
+           <input type="submit" value="Siguiente" id="btnCrear" onclick="alerta2()">
+           <input type="text" id="userCrear" placeholder="Correo electrónico o teléfono" autofocus>
+           <input type="text" id="userCrear2" placeholder="Correo electrónico o teléfono" autofocus>
+       </div>
    </div>
+   
 </body>
 </html>
