@@ -61,6 +61,7 @@ function alerta2(){
     var entrada2 = document.getElementById("userCrear2");
     var boton = document.getElementById("btnCrear");
     var back = document.getElementById("retroceder2");
+    var flechaBack = document.getElementById("retroceder2_2");
     var identificador = document.getElementById("identificador2");
     var parrafo = document.getElementById("moreInformation");
     
@@ -80,6 +81,7 @@ function alerta2(){
         boton.value = "Siguiente";
         
         back.style.display = "block";
+        flechaBack.style.display = "none";
         identificador.innerHTML = entrada.value;
         identificador.style.display= "block";
         rememberUser = entrada.value;
@@ -152,6 +154,7 @@ function retroceder(){
         var entrada2 = document.getElementById("userCrear2");
         var boton = document.getElementById("btnCrear");
         var back = document.getElementById("retroceder2");
+        var flechaBack = document.getElementById("retroceder2_2");
         var identificador = document.getElementById("identificador2");
         var parrafo = document.getElementById("moreInformation");
     
@@ -169,7 +172,8 @@ function retroceder(){
             entrada.style.transition = "0.4s";
     
             boton.value = "Siguiente";
-        
+            
+            flechaBack.style.display = "block";
             back.style.display = "none";
             entrada.value = rememberUser;
             identificador.style.display= "none";
@@ -202,10 +206,23 @@ function cambiarPantalla(){
     var pantalla1 = document.getElementById("cuadrado");
     var pantalla2 = document.getElementById("crearCuenta");
     
-    pantalla1.style.display = "none";
-    pantalla2.style.display = "block";
+     var flechaBack = document.getElementById("retroceder2_2");
+        
+    if(pantalla == 0){
+       
+        flechaBack.style.display = "block";
+        pantalla1.style.display = "none";
+        pantalla2.style.display = "block";
     
-    pantalla = 1;
+        pantalla = 1;
+    }
+    else if(pantalla == 1){
+        pantalla1.style.display = "block";
+        pantalla2.style.display = "none";
+        
+        pantalla = 0;
+    }
+    
 }
    
    
