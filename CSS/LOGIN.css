@@ -78,6 +78,10 @@
     display: none;
 }
 
+#cuadrado #olvido:hover{
+    color: red;
+}
+
 #crear a{
     text-decoration: none;
     color:#0B74AE;

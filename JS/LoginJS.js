@@ -230,4 +230,6 @@ function cambiarPantalla(){
     
 }
    
-   
+function alertaOlvido(){
+    alert("Nuestro servicio de asistencia se encuentra en mantenimiento en estos momentos, para poder recuperar su contraseña contactenos al 829-477-6963, sentimos los inconvenientes!")
+}
