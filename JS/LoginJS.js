@@ -15,7 +15,7 @@ var user = "", pass = ""; name = "", lastName = "";
     background-color: rgba(255,255,255,0.9);*/
     
 
-function alerta(){
+function pantalla1(){
    
     var cuadro = document.getElementById("cuadrado");
     var texto = document.getElementById("texto");
@@ -53,7 +53,7 @@ function alerta(){
     identificador.style.display = "block";
 }
 
-function alerta2(){
+function pantalla2(){
     
     var cuadro = document.getElementById("crearCuenta");
     var texto = document.getElementById("textoCrear");
@@ -206,22 +206,27 @@ function cambiarPantalla(){
     var pantalla1 = document.getElementById("cuadrado");
     var pantalla2 = document.getElementById("crearCuenta");
     
-     var flechaBack = document.getElementById("retroceder2_2");
-        
+    var flechaBack = document.getElementById("retroceder2_2");
+    
+    var entrada = document.getElementById("user");
+    var entrada2 = document.getElementById("userCrear");
+    
     if(pantalla == 0){
        
         flechaBack.style.display = "block";
         pantalla1.style.display = "none";
         pantalla2.style.display = "block";
-    
+        
+        entrada2.value = "";
         pantalla = 1;
     }
     else if(pantalla == 1){
         pantalla1.style.display = "block";
         pantalla2.style.display = "none";
-        
+        entrada.value = "";
         pantalla = 0;
     }
+   
     
 }
    
