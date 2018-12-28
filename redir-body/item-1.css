@@ -1,0 +1,47 @@
+#title{
+    font-size: 30px;
+    text-align: center;
+    text-decoration: underline;
+    font-family: 'Lobster', cursive;
+}
+.apartado{
+    height: 55px;
+    width: 100%;
+    background: rgba(0,114,193,0.95);
+    position: relative;
+}
+
+#cara{
+    border-top: 1px solid #000;
+}
+.apartado img{
+    height: 50px;
+    position: absolute;
+    display: block;
+    
+    
+}
+p{
+    
+    font-size: 20px
+    
+}
+h3{
+    position: absolute;
+    text-align: center;
+    top:15px;
+    
+    
+}
+#h31{
+    left: 55px;
+}
+#h32{
+    left: 355px;
+}
+#email{
+    left: 300px;
+}
+#phone{
+    padding: 5px 10px;
+}

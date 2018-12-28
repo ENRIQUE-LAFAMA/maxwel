@@ -17,7 +17,7 @@
 
 .reserva{
     width: 300px;
-    border-radius: 8px;
+    border-radius: 2px;
     overflow: hidden;
 }
 #items{
@@ -50,7 +50,7 @@ a2{
 #items:hover{
     cursor:pointer;
     background: rgba(0,0,0,1);
-    min-height: 25px;
+    max-height: 1;
     }
 
 
