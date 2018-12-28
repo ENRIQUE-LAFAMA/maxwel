@@ -45,7 +45,7 @@
     font-size: 30px;
 }
 
-#cuadrado #user{
+#cuadrado .iniciarSesion{
     position: absolute;
     background-color: rgba(255,255,255,0.2);
     outline: none;
@@ -59,6 +59,11 @@
     border-bottom-width: 1.4px;
     border-color: black;
     font-size: 17px;    
+}
+
+#cuadrado #password{
+    display: none;
+    margin-top: 42%;
 }
 
 #cuadrado #crear{

@@ -16,7 +16,11 @@
            <div class="retroceder" id="retroceder1_2" onclick="retroceder()">&#60</div>
            <h3 class="identificador" id="identificador1_2"></h3>
            <div id="texto">Iniciar sesión</div>
-           <input type="text" id="user" placeholder="Correo electrónico o teléfono" autofocus>
+           <form action="">
+               <input type="text" class="iniciarSesion" placeholder="Correo electrónico o teléfono" autofocus name="user" id="user">
+               <input type="text" class="iniciarSesion" placeholder="Contraseña" autofocus name="password" id="password">
+           </form>
+           
            <div id="crear">¿No tiene una cuenta? <a  onclick="cambiarPantalla()">Cree una.</a></div>
            <a id="olvido" onclick="alertaOlvido()">He olvidado mi contraseña</a>
            <input type="submit" value="Siguiente" id="btn" onclick="pantalla1()">
