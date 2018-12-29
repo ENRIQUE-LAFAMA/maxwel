@@ -1,4 +1,4 @@
-
+/*NOC SI ESAS X ROJAS SON NORMALES*/
 
 var pantalla = 0;//identificar la pantalla que se visualiza
 var gestor1 = 0, gestor2 = 0;
