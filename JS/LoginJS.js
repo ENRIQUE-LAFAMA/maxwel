@@ -22,6 +22,7 @@ function pantalla1(){
     var userInput = document.getElementById("user");
     var passwordInput = document.getElementById("password");
     var boton = document.getElementById("btn");
+    var boton2 = document.getElementById("btn2");
     var crearCuenta = document.getElementById("crear");
     var olvido = document.getElementById("olvido");
     var back = document.getElementById("retroceder1_2");
@@ -41,8 +42,9 @@ function pantalla1(){
    /* entrada.placeholder = "Contraseña";
     entrada.style.marginTop = "42%";
     entrada.style.transition = "0.4s";*/
+    boton2.style.display = "none";
+    boton.style.display = "block";
     
-    boton.value = "Iniciar sesión";
     
     crearCuenta.style.display = "none";
     olvido.style.display = "block";
@@ -59,9 +61,12 @@ function pantalla2(){
     
     var cuadro = document.getElementById("crearCuenta");
     var texto = document.getElementById("textoCrear");
-    var entrada = document.getElementById("userCrear");
-    var entrada2 = document.getElementById("userCrear2");
+    var userInput = document.getElementById("userCrear");
+    var passwordInput = document.getElementById("userCrear2");
+    var nombre = document.getElementById("nombre");
+    var apellido = document.getElementById("apellido");
     var boton = document.getElementById("btnCrear");
+    var boton2 = document.getElementById("btnCrear2");
     var back = document.getElementById("retroceder2");
     var flechaBack = document.getElementById("retroceder2_2");
     var identificador = document.getElementById("identificador2");
@@ -76,18 +81,16 @@ function pantalla2(){
         texto.style.marginTop = "30%";
         texto.style.transition = "0.4s";
     
-        entrada.placeholder = "Crea una contraseña";
-        entrada.style.marginTop = "45%";
-        entrada.style.transition = "0.4s";
-    
-        boton.value = "Siguiente";
+        userInput.style.display = "none";
         
+        passwordInput.style.display = "block";
+    
         back.style.display = "block";
         flechaBack.style.display = "none";
-        identificador.innerHTML = entrada.value;
+        identificador.innerHTML = userInput.value;
         identificador.style.display= "block";
-        rememberUser = entrada.value;
-        entrada.value = "";
+        rememberUser = userInput.value;
+        
         gestor2 = 1;
     }
     
@@ -95,17 +98,17 @@ function pantalla2(){
         texto.innerHTML = "Crear cuenta";
         texto.style.transition = "0.4s";
         
-        rememberPass = entrada.value;
-        entrada.value = "";
-        entrada.placeholder = "Nombre";
-        entrada.style.transition = "0.4s";
+        rememberPass = passwordInput.value;
         
-        entrada2.style.display = "block";
-        entrada2.placeholder = "Apellido";
+        passwordInput.style.display = "none";
+        
+        nombre.style.display = "block";
+        apellido.style.display = "block";
         
         parrafo.style.display = "block";
         
-        boton.value = "Crear";
+        boton2.style.display = "none";
+        boton.style.display = "block";
         
         gestor2 = 2;
     }
@@ -151,8 +154,10 @@ function retroceder(){
     else if(pantalla == 1){
         var cuadro = document.getElementById("crearCuenta");
         var texto = document.getElementById("textoCrear");
-        var entrada = document.getElementById("userCrear");
-        var entrada2 = document.getElementById("userCrear2");
+        var userInput = document.getElementById("userCrear");
+        var passwordInput = document.getElementById("userCrear2");
+        var nombre = document.getElementById("nombre");
+        var apellido = document.getElementById("apellido");
         var boton = document.getElementById("btnCrear");
         var back = document.getElementById("retroceder2");
         var flechaBack = document.getElementById("retroceder2_2");
@@ -168,15 +173,15 @@ function retroceder(){
             texto.style.marginTop = "20%";
             texto.style.transition = "0.4s";
     
-            entrada.placeholder = "Correo electrónico o Teléfono";
-            entrada.style.marginTop = "35%";
-            entrada.style.transition = "0.4s";
+            passwordInput.style.display = "none";
+            
+            userInput.style.display = "block";
     
             boton.value = "Siguiente";
             
             flechaBack.style.display = "block";
             back.style.display = "none";
-            entrada.value = rememberUser;
+            userInput.value = rememberUser;
             identificador.style.display= "none";
             identificador.innerHTML = "";
         
@@ -188,12 +193,13 @@ function retroceder(){
             texto.innerHTML = "Creación de una contraseña";
             texto.style.transition = "0.4s";
         
-            entrada.value = rememberPass;
-            entrada.placeholder = "Crea una contraseña";
-            entrada.style.transition = "0.4s";
-        
-            entrada2.style.display = "none";
-            entrada2.placeholder = "Apellido";
+            passwordInput.value = rememberPass;
+            
+            passwordInput.style.display = "block";
+            
+            nombre.style.display = "none";
+            
+            apellido.style.display = "none";
         
             boton.value = "Siguiente";
             parrafo.style.display = "none";
