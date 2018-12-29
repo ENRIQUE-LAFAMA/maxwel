@@ -122,6 +122,9 @@
 #cuadrado #btn{
     display: none;
 }
+#cuadrado #btn2{
+    display: block;
+}
 
 #cuadrado #btn:hover, #cuadrado #btn2:hover{
     background-color:#005683;
@@ -137,7 +140,6 @@
 }
 
 #Logo{
-    width: px;
     height: 45px;
     position:absolute;
     left: 25%;
@@ -244,6 +246,10 @@
 #btnCrear:hover, #btnCrear2:hover{
     background-color:#005683;
     cursor: pointer;
+}
+
+#btnCrear2{
+    display: block;
 }
 
 .retroceder{

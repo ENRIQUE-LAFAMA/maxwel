@@ -1,10 +1,15 @@
+
+<?php
+session_start();
+?>
+
 <!DOCTYPE html>
 <html>
     <head>
         <title >LUXURY</title>
         <meta charset="UTF-8">
         <link rel="stylesheet" href="CSS/GENERAL.CSS">
-    
+        <script language="javascript" src="JS/Login.js"></script>
     </head>
     <body>
        
@@ -20,8 +25,13 @@
                     <li><a href="REDIR-MENU/CONTACTO.HTML">CONTACTOS</a></li>
                     <li><a href="REDIR-MENU/RESERVAR.HTML">RESERVAR</a></li>
                     <li><a href="REDIR-MENU/Destino.html">DESTINO</a></li>
-                    <li id="icon-login"><a class="icon-login" href="Login.html">Login/Sign in</a></li>
-                    
+                    <li id="usuario" name="usuario">
+                       <a href=""><?php echo $_SESSION['user']?></a>
+                        <ul>
+                            <a href="">Mis reservas</a>
+                            <a href="index.html">Cerrar sesion</a>
+                        </ul>
+                    </li>
                 </ul>
             </nav>
         </header>
