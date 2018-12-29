@@ -19,7 +19,8 @@ function pantalla1(){
    
     var cuadro = document.getElementById("cuadrado");
     var texto = document.getElementById("texto");
-    var entrada = document.getElementById("user");
+    var userInput = document.getElementById("user");
+    var passwordInput = document.getElementById("password");
     var boton = document.getElementById("btn");
     var crearCuenta = document.getElementById("crear");
     var olvido = document.getElementById("olvido");
@@ -35,9 +36,11 @@ function pantalla1(){
     texto.style.marginTop = "30%";
     texto.style.transition = "0.4s";
     
-    entrada.placeholder = "Contraseña";
+    userInput.style.display = "none";
+    passwordInput.style.display = "block";
+   /* entrada.placeholder = "Contraseña";
     entrada.style.marginTop = "42%";
-    entrada.style.transition = "0.4s";
+    entrada.style.transition = "0.4s";*/
     
     boton.value = "Iniciar sesión";
     
@@ -45,8 +48,7 @@ function pantalla1(){
     olvido.style.display = "block";
     olvido.style.marginTop = "60%";
     
-    rememberUser = entrada.value;
-    entrada.value = "";
+    rememberUser = userInput.value;
     
     back.style.display = "block";
     identificador.innerHTML = rememberUser;
@@ -115,7 +117,8 @@ function retroceder(){
     if(pantalla == 0){
         var cuadro = document.getElementById("cuadrado");
         var texto = document.getElementById("texto");
-        var entrada = document.getElementById("user");
+        var userInput = document.getElementById("user");
+        var passwordInput = document.getElementById("password");
         var boton = document.getElementById("btn");
         var crearCuenta =   document.getElementById("crear");
         var olvido = document.getElementById("olvido");
@@ -131,18 +134,16 @@ function retroceder(){
         texto.style.marginTop = "20%";
         texto.style.transition = "0.4s";
     
-        entrada.placeholder = "Correo electrónico o teléfono";
-        entrada.style.marginTop = "32%";
-        entrada.style.transition = "0.4s";
-    
         boton.value = "Siguiente";
     
         crearCuenta.style.display = "block";
         olvido.style.display = "none";
         olvido.style.marginTop = "43%";
     
-        entrada.value = rememberUser;
-    
+        userInput.value = rememberUser;
+        passwordInput.style.display = "none";
+        userInput.style.display = "block";
+        
         back.style.display = "none";
         identificador.innerHTML = "";
         identificador.style.display = "none";
