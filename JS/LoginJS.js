@@ -22,6 +22,7 @@ function pantalla1(){
     var userInput = document.getElementById("user");
     var passwordInput = document.getElementById("password");
     var boton = document.getElementById("btn");
+    var boton2 = document.getElementById("btn2");
     var crearCuenta = document.getElementById("crear");
     var olvido = document.getElementById("olvido");
     var back = document.getElementById("retroceder1_2");
@@ -41,8 +42,9 @@ function pantalla1(){
    /* entrada.placeholder = "Contraseña";
     entrada.style.marginTop = "42%";
     entrada.style.transition = "0.4s";*/
+    boton2.style.display = "none";
+    boton.style.display = "block";
     
-    boton.value = "Iniciar sesión";
     
     crearCuenta.style.display = "none";
     olvido.style.display = "block";
@@ -64,6 +66,7 @@ function pantalla2(){
     var nombre = document.getElementById("nombre");
     var apellido = document.getElementById("apellido");
     var boton = document.getElementById("btnCrear");
+    var boton2 = document.getElementById("btnCrear2");
     var back = document.getElementById("retroceder2");
     var flechaBack = document.getElementById("retroceder2_2");
     var identificador = document.getElementById("identificador2");
@@ -82,8 +85,6 @@ function pantalla2(){
         
         passwordInput.style.display = "block";
     
-        boton.value = "Siguiente";
-        
         back.style.display = "block";
         flechaBack.style.display = "none";
         identificador.innerHTML = userInput.value;
@@ -106,7 +107,8 @@ function pantalla2(){
         
         parrafo.style.display = "block";
         
-        boton.value = "Crear";
+        boton2.style.display = "none";
+        boton.style.display = "block";
         
         gestor2 = 2;
     }
