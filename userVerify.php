@@ -1,6 +1,6 @@
 <?php
 
-include 'prueba.php';
+include 'conection.php';
 
 $user = $_POST["user"];
 $password = $_POST["password"];
