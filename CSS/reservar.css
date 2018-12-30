@@ -36,7 +36,7 @@
 }
 .items ul{
     background: #333;
-    overflow: hidden;
+  /*  overflow: hidden;*/
     transition: max-height 0.5s;/*estoy tengo que resolverlo para que cuando pase el mouse se despliegue el sub-menu*/
     /*max-height: 0;*/
    /* position: relative;*/
@@ -77,15 +77,14 @@ a2{
 }
 .fecha:hover ul{
     display: block;
+    position: absolute;
+    width: 300px;
+    
 }
+
 .fecha ul li{
     display: block;
-    display: flex;
-    float: left;
-    width: 25px;
-    height: 25px;
-    transform: translateX(-25px);
-    transform: translateY(-px);
+    display: flex;     
 }
 
 
