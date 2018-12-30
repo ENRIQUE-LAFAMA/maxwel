@@ -75,7 +75,18 @@ a2{
 .items ul li:hover{
     background: rgba(0,114,13,0.95);
 }
-
+.fecha:hover ul{
+    display: block;
+}
+.fecha ul li{
+    display: block;
+    display: flex;
+    float: left;
+    width: 25px;
+    height: 25px;
+    transform: translateX(-25px);
+    transform: translateY(-px);
+}
 
 
 /*////////////////////////////////////////////////////////////////////*/
