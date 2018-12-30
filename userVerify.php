@@ -16,7 +16,7 @@ $_SESSION['user']= $user;
 if($resultado2>0){
     
     
-    header("location:index2.php");
+    header("location:sesion.php");
 }
 else{
     echo "error!!!!";

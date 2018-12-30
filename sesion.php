@@ -84,6 +84,6 @@ session_start();
                 </article>
             </div>
         </section>
-        <script languaje = "php" src="prueba3.php"></script>
+
     </body>
 </html>
