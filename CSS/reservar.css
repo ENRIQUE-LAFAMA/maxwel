@@ -74,6 +74,7 @@ a2{
 }
 .items ul li:hover{
     background: rgba(0,114,13,0.95);
+    
 }
 .fecha:hover ul{
     display: block;
@@ -81,14 +82,38 @@ a2{
     width: 300px;
     
 }
+.fecha ul{
+    top:-100px
+}
 
 .fecha ul li{
     display: block;
-    display: flex;     
+    display: flex;
+    float: left;
+    justify-content: center;
+    
+}
+.fecha ul li{
+    display: block;
+    display: flex;
+    
+    padding: 17px 20.5px;
+    background: rgba(0,114,193,0.95);
+    text-align: center;
+    border-bottom: 1px solid rgb(255,255,255,0.1);
+}
+.fecha ul li #dias{
+    font-size: 20px;
+    width: 34px;
+}
+.fecha ul li #mes{
+    
+    font-size: 20px;
+    width: 110px;
+    height: 12px;
 }
 
-
-/*//////////////////////////////////////////////////////////////////////*/
+//////////////////////////////////////////////////////////////////////*/
 /*
 
 
