@@ -44,3 +44,7 @@ h3{
 #phone{
     padding: 5px 10px;
 }
+.contenedor img{
+    width:350px;
+    height: 350px;
+}
