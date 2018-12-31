@@ -21,10 +21,10 @@ session_start();
             <img src="IMG/LogoText1.png" alt="" id="LogoText">
           <nav class="menu">
                 <ul>
-                    <li><a href="index.html">INICIO</a></li>
-                    <li><a href="REDIR-MENU/CONTACTO.HTML">CONTACTOS</a></li>
-                    <li><a href="REDIR-MENU/RESERVAR.HTML">RESERVAR</a></li>
-                    <li><a href="REDIR-MENU/Destino.html">DESTINO</a></li>
+                    <li><a href="sesion.php">INICIO</a></li>
+                    <li><a href="contacto2.php">CONTACTOS</a></li>
+                    <li><a href="reservar2.php">RESERVAR</a></li>
+                    <li><a href="destinos2.php">DESTINO</a></li>
                     <li id="usuario" name="usuario">
                        <a href=""><?php echo $_SESSION['user']?></a>
                         <ul>
@@ -84,6 +84,6 @@ session_start();
                 </article>
             </div>
         </section>
-
+        
     </body>
 </html>
