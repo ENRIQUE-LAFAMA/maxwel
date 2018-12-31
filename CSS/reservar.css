@@ -35,7 +35,7 @@
     
 }
 .items ul{
-    background: #333;
+    background: #fff;
   /*  overflow: hidden;*/
     transition: max-height 0.5s;/*estoy tengo que resolverlo para que cuando pase el mouse se despliegue el sub-menu*/
     /*max-height: 0;*/
